@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity"
+    android:gravity="center"
+    android:background="#D505B071">
+
+    <!--CircleImageView-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImage"
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:src="@drawable/rodo" />
+
+<!--title-->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_rodo_landro_sianturi"
+        android:textSize="20dp"
+        android:textColor="#E8EAF3"/>
+
+<!--description-->
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: blacksabathhandsome@gmail.com"
+        android:autoLink="all"
+        android:textSize="18dp"
+        android:textColor="#0D2371"/>
+
+</LinearLayout>
